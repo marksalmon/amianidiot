@@ -18,7 +18,6 @@ class DisappearingValue extends Component
 
     public function updated($name, $value)
     {
-        // dd($name);
         $this->saved = $name;
     }
 
